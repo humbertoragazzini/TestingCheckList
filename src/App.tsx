@@ -27,16 +27,56 @@ function App() {
             Step
           </div>
         </div>
-        <ItemChack></ItemChack>
-        <ItemChack></ItemChack>
-        <ItemChack></ItemChack>
-        <ItemChack></ItemChack>
-        <ItemChack></ItemChack>
-        <ItemChack></ItemChack>
-        <ItemChack></ItemChack>
-        <ItemChack></ItemChack>
-        <ItemChack></ItemChack>
-        <ItemChack></ItemChack>
+        <ItemChack
+          order={1}
+          toCheck={"ARIA Labels in tags"}
+          comment={"Any comment?"}
+        ></ItemChack>
+        <ItemChack
+          order={1}
+          toCheck={"ARIA Labels in tags"}
+          comment={"Any comment?"}
+        ></ItemChack>
+        <ItemChack
+          order={1}
+          toCheck={"ARIA Labels in tags"}
+          comment={"Any comment?"}
+        ></ItemChack>
+        <ItemChack
+          order={1}
+          toCheck={"ARIA Labels in tags"}
+          comment={"Any comment?"}
+        ></ItemChack>
+        <ItemChack
+          order={1}
+          toCheck={"ARIA Labels in tags"}
+          comment={"Any comment?"}
+        ></ItemChack>
+        <ItemChack
+          order={1}
+          toCheck={"ARIA Labels in tags"}
+          comment={"Any comment?"}
+        ></ItemChack>
+        <ItemChack
+          order={1}
+          toCheck={"ARIA Labels in tags"}
+          comment={"Any comment?"}
+        ></ItemChack>
+        <ItemChack
+          order={1}
+          toCheck={"ARIA Labels in tags"}
+          comment={"Any comment?"}
+        ></ItemChack>
+        <ItemChack
+          order={1}
+          toCheck={"ARIA Labels in tags"}
+          comment={"Any comment?"}
+        ></ItemChack>
+        <ItemChack
+          order={1}
+          toCheck={"ARIA Labels in tags"}
+          comment={"Any comment?"}
+        ></ItemChack>
       </div>
     </>
   );
