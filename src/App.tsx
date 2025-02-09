@@ -1,35 +1,45 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import ItemChack from "./components/ItemCheck";
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className="w-screen h-screen bg-black">
+        <h1 className="text-white text-2xl text-center p-4">
+          Check List for QA
+        </h1>
+        {/*main container*/}
+        <div className="grid grid-cols-12 text-white font-bold">
+          <div className="bg-red-200 text-black border-1 border-red-300 p-3 col-span-1">
+            Order
+          </div>
+          <div className="bg-red-200 text-black border-1 border-red-300 p-3 col-span-4">
+            Step
+          </div>
+          <div className="bg-red-200 text-black border-1 border-red-300 p-3 col-span-5">
+            Step
+          </div>
+          <div className="bg-red-200 text-black border-1 border-red-300 p-3 col-span-2">
+            Step
+          </div>
+        </div>
+        <ItemChack></ItemChack>
+        <ItemChack></ItemChack>
+        <ItemChack></ItemChack>
+        <ItemChack></ItemChack>
+        <ItemChack></ItemChack>
+        <ItemChack></ItemChack>
+        <ItemChack></ItemChack>
+        <ItemChack></ItemChack>
+        <ItemChack></ItemChack>
+        <ItemChack></ItemChack>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
